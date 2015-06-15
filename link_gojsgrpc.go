@@ -31,4 +31,4 @@
 
 package main
 
-import _ "github.com/orian/protoc-gen-gojsgrpc/internal/jsgrpc"
+import _ "github.com/orian/protoc-gen-gojsgrpc/internal/gojsgrpc"

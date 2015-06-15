@@ -32,7 +32,7 @@
 // Package jsgrpc outputs JavaScript gRPC service descriptions in Go code.
 // It runs as a plugin for the Go protocol buffer compiler plugin.
 // It is linked in to protoc-gen-go.
-package jsgrpc
+package gojsgrpc
 
 import (
 	"fmt"
@@ -64,7 +64,7 @@ type jsgrpc struct {
 
 // Name returns the name of this plugin, "jsgrpc".
 func (g *jsgrpc) Name() string {
-	return "jsgrpc"
+	return "gojsgrpc"
 }
 
 // The names for packages imported in the generated code.
