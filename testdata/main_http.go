@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/orian/jsgrpc"
-	"github.com/orian/protoc-gen-jsgrpc/testdata/jsgrpc/testing"
+	"github.com/orian/protoc-gen-gojsgrpc/testdata/jsgrpc/testing"
 	"golang.org/x/net/context"
 )
 

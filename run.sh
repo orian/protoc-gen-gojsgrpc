@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PATH=$PATH:$GOPATH/src/github.com/orian/protoc-gen-jsgrpc
+export PATH=$PATH:$GOPATH/src/github.com/orian/protoc-gen-gojsgrpc
 
 go build
 #protoc --jsgrpc=testdata/ testdata/multi/multi{1,2,3}.proto --proto_path=testdata/
